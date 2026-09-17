@@ -10,7 +10,7 @@ pipeline {
 
         stage('Generate Report') {
             steps {
-                bat 'python app.py'
+                sh 'python3 app.py'
             }
         }
 
